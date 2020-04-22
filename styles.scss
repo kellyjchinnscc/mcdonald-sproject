@@ -1,0 +1,33 @@
+// Variable Declaration
+@import './variables';
+@import './mainArea';
+@import './foodItem';
+
+body
+{
+    // Style Rules for Background of Web Page
+    background-color: $bodyBackGroundColor;
+    font-family: Arial, Helvetica, sans-serif;
+
+    // Style Rules for Header within Web Page
+        header
+        {
+            background-color: $headerColor;
+        }
+
+    // Styles for Bar Chart Area
+        #barChartDiv
+        {
+            background-color: whitesmoke;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .bar{fill: steelblue};
+
+   // Style Rules for Footer within Web Page     
+        footer
+        {
+            background-color: $footerColor;
+        }
+}

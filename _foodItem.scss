@@ -1,0 +1,16 @@
+@mixin configureFoodItems 
+{
+    border-radius: 8px;
+    border-style: groove;
+    min-width: 100px;
+    min-height: 100px;
+    box-shadow: 8px 8px;
+    background-color: $foodItemColor;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.foodItem
+{
+  @include configureFoodItems();
+}

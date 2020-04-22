@@ -1,0 +1,20 @@
+@mixin setMainAreaDimensions 
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+#mainArea
+        {
+            @include setMainAreaDimensions();
+            // display: grid;
+            // grid-template-columns: repeat(5, 1fr);
+            // grid-template-rows: repeat(4, 1fr);
+            // row-gap: 20px;
+            // column-gap: 10px;
+            // align-items: center;
+        }

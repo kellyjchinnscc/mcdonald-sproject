@@ -1,0 +1,50 @@
+#mainArea {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  row-gap: 20px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foodItem {
+  border-radius: 8px;
+  border-style: groove;
+  min-width: 100px;
+  min-height: 100px;
+  -webkit-box-shadow: 8px 8px;
+          box-shadow: 8px 8px;
+  background-color: yellowgreen;
+  text-align: center;
+  padding-top: 40px;
+}
+
+body {
+  background-color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body header {
+  background-color: #fbff00;
+}
+
+body #barChartDiv {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 10px;
+}
+
+body .bar {
+  fill: steelblue;
+}
+
+body footer {
+  background-color: snow;
+}
+/*# sourceMappingURL=styles.css.map */
